@@ -1,0 +1,15 @@
+# Manual Testing Checklist
+- [ ] App opens at login screen
+- [ ] New user can register
+- [ ] Duplicate username is rejected
+- [ ] Short password and password without digit are rejected
+- [ ] Valid login succeeds; invalid login is rejected
+- [ ] Train list loads from MySQL
+- [ ] Empty passenger name is rejected
+- [ ] Past journey date is rejected
+- [ ] Valid booking creates a PNR
+- [ ] User can view their reservations
+- [ ] User cannot cancel another user's reservation
+- [ ] Correct user's PNR can be cancelled after confirmation
+- [ ] Invalid PNR is handled
+- [ ] Logout returns to login
